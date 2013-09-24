@@ -8,12 +8,14 @@ Right now, it is mostly for my personal use, thus I create it as a minimal versi
 
 # sqlite Tables
 abbrevs
+
 |   abbv     | term          |
 | ------------- |-------------|
 | Sc      | "Science" |
 | Nat      | "Nature"      |
 
 bibs
+
 |   key     | title     |  authors  | journal | year | bib  | 
 | ---------|----------|----------|----------|----------|----------|
 
@@ -29,7 +31,10 @@ Then you can go to localhost:8000 and manage your bibtex database
 abbrevSql.py : create database table abbrevs to store journal abbrevations
 
 paperSql.py  : create database table from old bibtex library
+
 printSql.py  : print database into text format so that I can include in latex
+
 index.html   : web interface 
+
 /cgi-bin     : python cgi for online view and update of the database 
 
