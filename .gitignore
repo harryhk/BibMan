@@ -1,0 +1,4 @@
+### git ignore ### 
+# Personally I don't want to ignore database file, as I can clone it to any linux based computer. And also it is light. I will ignore it when my citation database grows large. 
+
+*.py[co]

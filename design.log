@@ -1,0 +1,16 @@
+We need two database
+1. database for Journal Abbrev. 
+2. database for article indexed by bibtex key 
+    the database should have 
+    1. bibtex key 
+    2. year 
+    3. journal abbrev 
+    4. whole authors list 
+    5. whole bibtex entry 
+
+The database should support the following functions:
+1. add journal abbrev
+2. search article by title 
+3. search article by author // should be able to search author field by regular expression
+3. search article by year 
+4. search article by journal 
