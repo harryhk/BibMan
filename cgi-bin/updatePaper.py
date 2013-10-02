@@ -17,7 +17,7 @@ class entry(object):
         self.data=indata
         tmp =  re.match(r".*{(.*),", indata[0])
         self.key = tmp.groups()[0].strip().lower()
-        self.raw = ''.join(indata)
+        self.raw = '\n'.join([ i.strip() for i in indata])
         #self.raw = self.raw.encode('utf8')
         self.title, self.author, self.journal, self.year = ('', '', '', '')
         self._parser()
